@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+h1{
+    font-size: large;
+    font-weight: 900;
+    margin-bottom: 0px;
+    line-height: 1.3;
+}
+
+img{
+    width:240px;
+    border-radius:8px ;
+}
+#para{
+    color: #a5a5a5;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-detail{
+    margin: 5px;
+}
+.container{
+    width: 90%;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    background:rgba(174, 203, 235,0.4);
+    box-shadow: 1px 8px 20px rgb(206, 212, 218);
+}
+
+.card{
+    max-width: 245px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
